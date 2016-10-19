@@ -1,0 +1,8 @@
+2016-10-19 22:14:12,183 ERROR [main] xml [XMLTransactionItemProcessor.java:44] End balance error detected in transaction: 154270, for account: NL56RABO0149876948, with description: Candy for Peter de Vries. 
+The calculated end balance: 4490.0 does not correspond to the given end balance: 6368.0
+2016-10-19 22:14:12,230 ERROR [main] xml [XMLTransactionItemProcessor.java:44] End balance error detected in transaction: 140269, for account: NL43AEGO0773393871, with description: Tickets for Vincent Dekker. 
+The calculated end balance: 4980.0 does not correspond to the given end balance: 4981.0
+2016-10-19 22:14:26,969 ERROR [main] xml [XMLTransactionItemProcessor.java:44] End balance error detected in transaction: 154270, for account: NL56RABO0149876948, with description: Candy for Peter de Vries. 
+The calculated end balance: 4490.0 does not correspond to the given end balance: 6368.0
+2016-10-19 22:14:27,003 ERROR [main] xml [XMLTransactionItemProcessor.java:44] End balance error detected in transaction: 140269, for account: NL43AEGO0773393871, with description: Tickets for Vincent Dekker. 
+The calculated end balance: 4980.0 does not correspond to the given end balance: 4981.0

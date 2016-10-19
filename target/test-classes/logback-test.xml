@@ -1,0 +1,24 @@
+<configuration debug="false">
+  <appender name="csv" class="ch.qos.logback.core.FileAppender">
+    <file>log/test/csv_import_report.log</file>
+    <append>false</append>
+    <encoder>
+      <pattern>%date %level [%thread] %logger [%file:%line] %msg%n</pattern>
+    </encoder>
+  </appender>
+  <appender name="xml" class="ch.qos.logback.core.FileAppender">
+    <file>log/test/xml_import_report.log</file>
+    <append>false</append>
+    <encoder>
+      <pattern>%date %level [%thread] %logger [%file:%line] %msg%n</pattern>
+    </encoder>
+  </appender>
+  <logger name="root" level="info">
+  </logger>
+  <logger  name="csv" level="error">
+  	<appender-ref ref="csv" />
+  </logger>
+  <logger name="xml" level="error">
+  	<appender-ref ref="xml" />
+  </logger>
+</configuration>
