@@ -1,4 +1,0 @@
-2016-10-19 22:14:07,485 ERROR [main] csv [CSVTransactionItemProcessor.java:31] Not unique reference error detected for transaction: 112806, for account: NL90ABNA0585647886, with description: Clothes from Peter de Vries. 
-
-2016-10-19 22:14:07,493 ERROR [main] csv [CSVTransactionItemProcessor.java:31] Not unique reference error detected for transaction: 112806, for account: NL91RABO0315273637, with description: Tickets for Erik Dekker. 
-
