@@ -54,7 +54,7 @@ public class TransactionCSVBatchJobConfigurationTest {
 	private void shouldReportDoubleReferences() throws IOException {
 		String report = FileUtils.readFileToString(reportFile);
 		assertTrue(report.contains("Not unique reference error detected for transaction: 112806, for account: NL90ABNA0585647886, with description: Clothes from Peter de Vries."));
-		assertTrue(report.contains("Not unique reference error detected for transaction: 112806, for account: NL91RABO0315273637, with description: Tickets for Erik Dekker. "));
+		assertTrue(report.contains("Not unique reference error detected for transaction: 112806, for account: NL91RABO0315273637, with description: Tickets for Erik Dekker."));
 	}
 	
 	private void clearDatabase() {
